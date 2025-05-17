@@ -1,0 +1,41 @@
+/* FOOTER */
+.footer {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  margin: 20px;
+}
+
+.footer-nav span {
+  margin: 10px;
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+  font-size: small;
+}
+
+.footer-nav span:hover {
+  text-decoration: underline;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: small;
+}
+.footer-info span {
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+}
+
+#languages{
+  border: none;
+  color: rgb(141, 141, 141);
+  font-size: small;
+}
