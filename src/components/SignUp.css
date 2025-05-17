@@ -1,0 +1,127 @@
+.signup {
+  height: 115vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup-form-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgb(219 219 219);
+  width: 25%;
+}
+
+.signup-string {
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: medium;
+  font-weight: 600;
+  color: rgb(119, 119, 119);
+  text-align: center;
+}
+
+.facebook-button {
+  background-color: #0090ed;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin: 2px;
+  width: 255px;
+  height: 35px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+.weird-or-section {
+  margin-bottom: 15px;
+}
+
+.signup-form input {
+  margin: 2px;
+  width: 255px;
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid rgb(219 219 219);
+  background-color: #fafafa;
+}
+
+::placeholder {
+  font-size: smaller;
+}
+
+.signup-info {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.signup-info p {
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(119, 119, 119);
+}
+
+.link {
+  color: #3579ea;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup-button {
+  background-color: rgb(76 181 249);
+  color: white;
+  border: none;
+  margin: 2px;
+  width: 255px;
+  height: 35px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signin-section {
+  margin-top: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 25%;
+  border: 1px solid rgb(219 219 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-section p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.login-link {
+  text-decoration: none;
+}
+
+.login-link p {
+  color: #3579ea;
+  font-weight: 600;
+}
+
+/* .signup-button {
+  margin-left: 5px;
+  width: 265px;
+  height: 35px;
+  background-color: #4cb5f9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+} */

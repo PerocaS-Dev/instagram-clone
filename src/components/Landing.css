@@ -1,0 +1,174 @@
+.landing {
+  width: 100vw;
+  height: 83vh;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* DESIGN */
+
+.landing-design {
+  width: 60%;
+}
+
+.design-picture {
+  height: 450px;
+  margin-left: 200px;
+}
+
+/* LOGIN SECTION */
+
+.login-section {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 200px;
+}
+
+.landing-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-container {
+  display: flex;
+  justify-content: center;
+}
+.landing-label {
+  width: 200px;
+  height: 100px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form input {
+  margin: 5px;
+  width: 255px;
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid rgb(219 219 219);
+  background-color: #fafafa;
+}
+
+::placeholder{
+    font-size: smaller;
+}
+
+.login-button {
+  margin-left: 5px;
+  width: 265px;
+  height: 35px;
+  background-color: #4cb5f9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.weird-or-section {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5px;
+}
+
+.line {
+  height: 1px;
+  width: 100px;
+  background-color: rgb(219 219 219);
+}
+
+.or {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.or p {
+  color: rgb(141, 141, 141);
+  font-size: 13px;
+}
+
+.facebook-login {
+  margin-top: 20px;
+}
+
+.facebook-login p {
+  color: #3579ea;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.forgot-password {
+  color: rgb(0 55 107);
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.with-account {
+  font-size: 14px;
+}
+
+.signup-link {
+  color: #3579ea;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.landing-footer {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  margin: 20px;
+}
+
+.footer-nav span {
+  margin: 10px;
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+  font-size: small;
+}
+
+.footer-nav span:hover {
+  text-decoration: underline;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: small;
+}
+.footer-info span {
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+}
+
+#languages{
+  border: none;
+  color: rgb(141, 141, 141);
+  font-size: small;
+}
+
