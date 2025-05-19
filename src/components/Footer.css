@@ -1,22 +1,28 @@
 /* FOOTER */
 .footer {
-  width: 100vw;
-  height: 20vh;
+  width: 100%;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .footer-nav {
-  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5rem 0;
+  max-width: 100%;
 }
 
 .footer-nav span {
-  margin: 10px;
+  margin: 0.3rem 0.5rem;
   color: rgb(141, 141, 141);
   cursor: pointer;
-  font-size: small;
+  font-size: 0.75rem;
+  white-space: nowrap;
 }
 
 .footer-nav span:hover {
@@ -25,17 +31,20 @@
 
 .footer-info {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
-  font-size: small;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  max-width: 100%;
 }
 .footer-info span {
   color: rgb(141, 141, 141);
   cursor: pointer;
 }
 
-#languages{
+#languages {
   border: none;
   color: rgb(141, 141, 141);
-  font-size: small;
+  font-size: 0.75rem;
 }

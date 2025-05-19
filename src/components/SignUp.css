@@ -1,11 +1,10 @@
 /* Base Styles (Mobile-First) */
 .signup {
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  padding: 0;
+  width: 100%;
   box-sizing: border-box;
   position: relative;
 }
@@ -13,10 +12,11 @@
 .signup-form-container {
   width: 100%;
   max-width: 350px;
+  margin: 1rem auto 0;
   padding: 1.5rem;
   border: 1px solid rgb(219, 219, 219);
   background-color: white;
-  margin: auto; /* Centers vertically */
+  box-sizing: border-box;
 }
 
 .label-container {
@@ -119,11 +119,19 @@
 .signin-section {
   width: 100%;
   max-width: 350px;
-  padding: 1.5rem;
   margin: 1rem auto;
+  padding: 1.5rem;
   border: 1px solid rgb(219, 219, 219);
   background-color: white;
   text-align: center;
+  box-sizing: border-box;
+}
+
+.signup-form input,
+.facebook-button,
+.signup-button {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .login-link {
@@ -134,39 +142,19 @@
 
 .signup-footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 0.5rem 0;
-}
-/* Media Queries */
-@media (min-width: 768px) {
-  .signup {
-    padding: 2rem;
-  }
-  
-  .signup-form-container {
-    max-width: 250px;
-    padding: 2rem;
-  }
-  
-  .signin-section {
-    max-width: 250px;
-    margin-top: 1rem;
-  }
-  
-  .signup-footer {
-    position: static;
-    margin-top: auto;
-    padding: 2rem 0;
-  }
+  padding: 1rem;
+  margin-top: auto;
+  box-sizing: border-box;
 }
 
-@media (min-width: 1024px) {
+/* Media Queries */
+@media (max-width: 320px) {
   .signup-form-container,
   .signin-section {
-    max-width: 300px;
+    padding: 1rem;
   }
-
+  
+  .signup-form input {
+    font-size: 0.9rem;
+  }
 }
-
